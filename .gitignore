@@ -1,0 +1,24 @@
+# MaxNotifier — .gitignore
+
+# PyInstaller
+build/
+*.spec
+
+# Собранный exe (пользователь скачивает релиз, не из репозитория)
+dist/MaxNotifier.exe
+
+# Лог-файлы
+log.txt
+
+# Конфигурация с личными данными
+config.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
